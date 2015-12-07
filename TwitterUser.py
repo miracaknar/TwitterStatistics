@@ -10,7 +10,7 @@ class TwitterUser(object):
         self.following_count = following_count
         self.profile_picture = profile_picture
 
-    # end of init
+   
 
     def __str__(self):
         return_string = "id: " + str(self.twitter_id)
@@ -20,4 +20,4 @@ class TwitterUser(object):
         return_string += "\nfollowings count : " + str(self.following_count)
         return_string += "\nprofile picture : " + str(self.profile_picture)
         return return_string
-    # end of str
+   

@@ -1,4 +1,3 @@
-__author__ = 'Miraç Aknar'
 from TwitterFetcher import TwitterFetcher
 from TwitterAnalyzer import TwitterAnalyzer
 

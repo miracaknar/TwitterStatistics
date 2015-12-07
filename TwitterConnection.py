@@ -37,7 +37,7 @@ class TwitterConnection:
     # end
 
     def change_connection_keys(self):
-        print("-------------------------------------------connection keys have been changed")
+        print("---------connection keys have been changed")
         if self.index is (len(self.consumer_secrets) - 1):
             self.index = 0
             self.consumer_key = self.consumer_keys[0]
